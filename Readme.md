@@ -13,6 +13,39 @@ Generative AI (gen AI) is revolutionizing industries, and Kubernetes has fast be
 Authors Roland Huß and Daniele Zonca provide a clear roadmap for training, fine-tuning, deploying, and scaling genAI models on Kubernetes while addressing challenges like resource optimization, automation, and security. Through real-world examples and actionable insights, readers will learn how to manage genAI applications in production and operationalize AI workloads at scale.
 
 
+<br/>
+
+## Chapters:
+
+**Part I. Inference**
+
+<ol>
+  <li>📖 Deploying Models</li>
+  <li>📖 Model Data</li>
+</ol>
+
+**Part II. Production Readiness**
+
+<ol start="3">
+  <li>Kubernetes and GPUs</li>
+  <li>Running in Production</li>
+  <li>Model Observability</li>
+</ol>
+
+**Part III. Tuning**
+
+<ol start="6">
+  <li>Model Customization</li>
+  <li>Job Scheduling Optimization</li>
+</ol>
+
+**Part IV. AI-Driven Apps**
+
+<ol start="8">
+  <li>AI-Driven Applications</li>
+  <li>Running Agentic Applications in Production</li>
+</ol>
+
 <br/><br/>
 
 ---
