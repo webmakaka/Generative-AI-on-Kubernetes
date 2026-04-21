@@ -21,6 +21,14 @@ $ uv pip install -r requirements.txt
 
 <br/>
 
+## “It Works on My Machine”
+
+<br/>
+
+### Example 01
+
+<br/>
+
 ```shell
 // OK!
 $ python Example01-01.py
@@ -49,6 +57,30 @@ Kubernetes is the future of cloud computing.
 So let's embrace Kubernetes, and make our systems strong,
 And secure our applications with this power.
 For without it,
+```
+
+<br/>
+
+### Example 02
+
+```shell
+uvicorn Example01-02:app --reload
+```
+
+<br/>
+
+```shell
+$ curl -X POST "http://localhost:8000/generate" \
+     -H "Content-Type: application/json" \
+     -d '{"text": "What is the capital of France?"}' | jq .
+```
+
+response:
+
+```shell
+{
+  "text": "What is the capital of France? The capital of France is Paris. It is the largest city in Europe and one of the most populous cities in the world. The French government has its headquarters, as well as many important departments, in the heart of the city. \n\nParis is known for its beautiful architecture, rich history, and vibrant culture. It is also home to many famous landmarks such as Notre-Dame Cathedral, Eiffel Tower, Louvre Museum, and the Palace of Versailles.\n\nIn addition to these major attractions, Paris is a popular tourist destination, with millions of visitors each year. Its unique blend of old-world charm and modern amenities makes it an attractive place for people from all over the world to visit and explore."
+}
 ```
 
 <br/><br/>

@@ -1,8 +1,16 @@
+# --- ML Stack ---
 transformers>=4.45.0
 torch>=2.4.0
 accelerate>=0.26.0
 huggingface_hub
-fastapi
-uvicorn
-pydantic
-accelerate
+
+# --- API Stack ---
+fastapi==0.136.0
+uvicorn==0.45.0
+pydantic==2.13.3
+pydantic-core==2.46.3
+starlette==1.0.0
+
+# --- Dependencies ---
+annotated-types==0.7.0
+typing-inspection==0.4.2
