@@ -1,0 +1,7 @@
+from vllm import LLM
+# Load the model
+llm = LLM(model="meta-llama/Meta-Llama-3-8B")
+# Invoke the model
+results = llm.generate("LLMs are great for")
+# Extract the result
+print(results[0].outputs[0].text)
